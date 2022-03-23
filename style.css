@@ -1,0 +1,67 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.load {
+    padding-bottom: 2cm;
+}
+
+.menu {
+    display: flex;
+    padding-top: 0.1cm;
+}
+
+.menuelement {
+    display: inline-block;
+    margin-right: 20px;
+    min-width: 120px;
+}
+
+.rowtop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowbot{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.rowelement {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.body__wrapper {
+    padding: 0.5cm;
+}
+
+.modal {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(114, 114, 114, 0.288);
+}
+
+.modal__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;  
+}
+
+.modal__content {
+    max-width: 75%;
+    border: 4px double black;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.modal__title {
+    padding-right: 20px;
+}
+
+

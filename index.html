@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+
+<body>
+    <div class="body__wrapper">
+        <div class="load">
+        Сотрудники
+        <input type="file" id="personsfile" name="personsfile" class="rowelement" onchange="readPersons(this)" />
+        Должности
+        <input type="file" id="positionsfile" name="positionsfile" class="rowelement" onchange="readPositions(this)"/>
+        Организации
+        <input type="file" id="orgsfile" name="orgsfile" class="rowelement" onchange="readOrgs(this)"/>
+        Подразделения
+        <input type="file" id="subsfile" name="subsfile" class="rowelement" onchange="readSubs(this)"/>
+        </div>
+        <div class="menu">
+            <div id="text" class="menuelement">Сотрудник</div>
+            <div>
+                <button id="show-person-selection">выбрать</button>
+                <div id="personmenu" class="menu">
+                    <div id="persontext" class="menuelement">пусто</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div id="text" class="menuelement">Должность</div>
+            <div>
+                <button id="show-position-selection">выбрать</button>
+                <div id="positionmenu" class="menu">
+                    <div id="positiontext" class="menuelement">пусто</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div id="text" class="menuelement">Организация</div>
+            <div>
+                <button id="show-org-selection">выбрать</button>
+                <div id="orgmenu" class="menu">
+                    <div id="orgtext" class="menuelement">пусто</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div id="text" class="menuelement">Подразделение</div>
+            <div>
+                <button id="show-sub-selection">выбрать</button>
+                <div id="submenu" class="menu">
+                    <div id="subtext" class="menuelement">пусто</div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        
+
+    <script src="skript.js"></script>
+</body>
